@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Management", "Management.csproj", "{DD1B413D-28B6-4D36-851B-490DDD28F2C2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NBA Management System", "NBA Management System.csproj", "{DD1B413D-28B6-4D36-851B-490DDD28F2C2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
