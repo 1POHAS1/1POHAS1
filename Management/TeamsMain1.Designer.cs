@@ -29,8 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TeamsMain1));
-            this.button63 = new System.Windows.Forms.Button();
-            this.button62 = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel10 = new System.Windows.Forms.Panel();
             this.button22 = new System.Windows.Forms.Button();
@@ -134,6 +132,106 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.button5 = new System.Windows.Forms.Button();
+            this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.panel20 = new System.Windows.Forms.Panel();
+            this.panel21 = new System.Windows.Forms.Panel();
+            this.button62 = new System.Windows.Forms.Button();
+            this.pictureBox17 = new System.Windows.Forms.PictureBox();
+            this.button63 = new System.Windows.Forms.Button();
+            this.button64 = new System.Windows.Forms.Button();
+            this.button65 = new System.Windows.Forms.Button();
+            this.panel22 = new System.Windows.Forms.Panel();
+            this.panel23 = new System.Windows.Forms.Panel();
+            this.button66 = new System.Windows.Forms.Button();
+            this.pictureBox18 = new System.Windows.Forms.PictureBox();
+            this.button67 = new System.Windows.Forms.Button();
+            this.button68 = new System.Windows.Forms.Button();
+            this.button69 = new System.Windows.Forms.Button();
+            this.panel24 = new System.Windows.Forms.Panel();
+            this.button70 = new System.Windows.Forms.Button();
+            this.pictureBox19 = new System.Windows.Forms.PictureBox();
+            this.button71 = new System.Windows.Forms.Button();
+            this.button72 = new System.Windows.Forms.Button();
+            this.button73 = new System.Windows.Forms.Button();
+            this.panel25 = new System.Windows.Forms.Panel();
+            this.button74 = new System.Windows.Forms.Button();
+            this.pictureBox20 = new System.Windows.Forms.PictureBox();
+            this.button75 = new System.Windows.Forms.Button();
+            this.button76 = new System.Windows.Forms.Button();
+            this.button77 = new System.Windows.Forms.Button();
+            this.panel26 = new System.Windows.Forms.Panel();
+            this.button78 = new System.Windows.Forms.Button();
+            this.pictureBox21 = new System.Windows.Forms.PictureBox();
+            this.button79 = new System.Windows.Forms.Button();
+            this.button80 = new System.Windows.Forms.Button();
+            this.button81 = new System.Windows.Forms.Button();
+            this.panel27 = new System.Windows.Forms.Panel();
+            this.button82 = new System.Windows.Forms.Button();
+            this.pictureBox22 = new System.Windows.Forms.PictureBox();
+            this.button83 = new System.Windows.Forms.Button();
+            this.button84 = new System.Windows.Forms.Button();
+            this.button85 = new System.Windows.Forms.Button();
+            this.label7 = new System.Windows.Forms.Label();
+            this.panel28 = new System.Windows.Forms.Panel();
+            this.panel29 = new System.Windows.Forms.Panel();
+            this.button86 = new System.Windows.Forms.Button();
+            this.pictureBox23 = new System.Windows.Forms.PictureBox();
+            this.button87 = new System.Windows.Forms.Button();
+            this.button88 = new System.Windows.Forms.Button();
+            this.button89 = new System.Windows.Forms.Button();
+            this.panel30 = new System.Windows.Forms.Panel();
+            this.button90 = new System.Windows.Forms.Button();
+            this.pictureBox24 = new System.Windows.Forms.PictureBox();
+            this.button91 = new System.Windows.Forms.Button();
+            this.button92 = new System.Windows.Forms.Button();
+            this.button93 = new System.Windows.Forms.Button();
+            this.panel31 = new System.Windows.Forms.Panel();
+            this.button94 = new System.Windows.Forms.Button();
+            this.pictureBox25 = new System.Windows.Forms.PictureBox();
+            this.button95 = new System.Windows.Forms.Button();
+            this.button96 = new System.Windows.Forms.Button();
+            this.button97 = new System.Windows.Forms.Button();
+            this.panel32 = new System.Windows.Forms.Panel();
+            this.button98 = new System.Windows.Forms.Button();
+            this.pictureBox26 = new System.Windows.Forms.PictureBox();
+            this.button99 = new System.Windows.Forms.Button();
+            this.button100 = new System.Windows.Forms.Button();
+            this.button101 = new System.Windows.Forms.Button();
+            this.panel33 = new System.Windows.Forms.Panel();
+            this.button102 = new System.Windows.Forms.Button();
+            this.pictureBox27 = new System.Windows.Forms.PictureBox();
+            this.button103 = new System.Windows.Forms.Button();
+            this.button104 = new System.Windows.Forms.Button();
+            this.button105 = new System.Windows.Forms.Button();
+            this.label8 = new System.Windows.Forms.Label();
+            this.panel34 = new System.Windows.Forms.Panel();
+            this.panel35 = new System.Windows.Forms.Panel();
+            this.button106 = new System.Windows.Forms.Button();
+            this.pictureBox28 = new System.Windows.Forms.PictureBox();
+            this.button107 = new System.Windows.Forms.Button();
+            this.button108 = new System.Windows.Forms.Button();
+            this.button109 = new System.Windows.Forms.Button();
+            this.panel36 = new System.Windows.Forms.Panel();
+            this.button110 = new System.Windows.Forms.Button();
+            this.pictureBox29 = new System.Windows.Forms.PictureBox();
+            this.button111 = new System.Windows.Forms.Button();
+            this.button112 = new System.Windows.Forms.Button();
+            this.button113 = new System.Windows.Forms.Button();
+            this.panel37 = new System.Windows.Forms.Panel();
+            this.button114 = new System.Windows.Forms.Button();
+            this.pictureBox30 = new System.Windows.Forms.PictureBox();
+            this.button115 = new System.Windows.Forms.Button();
+            this.button116 = new System.Windows.Forms.Button();
+            this.button117 = new System.Windows.Forms.Button();
+            this.panel38 = new System.Windows.Forms.Panel();
+            this.button118 = new System.Windows.Forms.Button();
+            this.pictureBox31 = new System.Windows.Forms.PictureBox();
+            this.button119 = new System.Windows.Forms.Button();
+            this.button120 = new System.Windows.Forms.Button();
+            this.button121 = new System.Windows.Forms.Button();
+            this.label9 = new System.Windows.Forms.Label();
             this.panel3.SuspendLayout();
             this.panel10.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
@@ -170,27 +268,44 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.tabControl1.SuspendLayout();
+            this.tabPage1.SuspendLayout();
+            this.tabPage2.SuspendLayout();
+            this.panel20.SuspendLayout();
+            this.panel21.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
+            this.panel22.SuspendLayout();
+            this.panel23.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
+            this.panel24.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
+            this.panel25.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
+            this.panel26.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).BeginInit();
+            this.panel27.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).BeginInit();
+            this.panel28.SuspendLayout();
+            this.panel29.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).BeginInit();
+            this.panel30.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).BeginInit();
+            this.panel31.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).BeginInit();
+            this.panel32.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).BeginInit();
+            this.panel33.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).BeginInit();
+            this.panel34.SuspendLayout();
+            this.panel35.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).BeginInit();
+            this.panel36.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox29)).BeginInit();
+            this.panel37.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox30)).BeginInit();
+            this.panel38.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox31)).BeginInit();
             this.SuspendLayout();
-            // 
-            // button63
-            // 
-            this.button63.Location = new System.Drawing.Point(96, 97);
-            this.button63.Name = "button63";
-            this.button63.Size = new System.Drawing.Size(89, 27);
-            this.button63.TabIndex = 18;
-            this.button63.Text = "Western";
-            this.button63.UseVisualStyleBackColor = true;
-            // 
-            // button62
-            // 
-            this.button62.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button62.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button62.Location = new System.Drawing.Point(12, 97);
-            this.button62.Name = "button62";
-            this.button62.Size = new System.Drawing.Size(89, 27);
-            this.button62.TabIndex = 19;
-            this.button62.Text = "Eastern";
-            this.button62.UseVisualStyleBackColor = false;
             // 
             // panel3
             // 
@@ -199,7 +314,7 @@
             this.panel3.Controls.Add(this.panel14);
             this.panel3.Controls.Add(this.panel4);
             this.panel3.Controls.Add(this.panel2);
-            this.panel3.Location = new System.Drawing.Point(12, 123);
+            this.panel3.Location = new System.Drawing.Point(0, 4);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(776, 308);
             this.panel3.TabIndex = 17;
@@ -1487,14 +1602,1273 @@
             this.button5.Text = "Back";
             this.button5.UseVisualStyleBackColor = true;
             // 
+            // tabControl1
+            // 
+            this.tabControl1.Controls.Add(this.tabPage1);
+            this.tabControl1.Controls.Add(this.tabPage2);
+            this.tabControl1.Location = new System.Drawing.Point(9, 93);
+            this.tabControl1.Name = "tabControl1";
+            this.tabControl1.SelectedIndex = 0;
+            this.tabControl1.Size = new System.Drawing.Size(790, 338);
+            this.tabControl1.TabIndex = 5;
+            // 
+            // tabPage1
+            // 
+            this.tabPage1.Controls.Add(this.panel3);
+            this.tabPage1.Location = new System.Drawing.Point(4, 22);
+            this.tabPage1.Name = "tabPage1";
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage1.Size = new System.Drawing.Size(782, 312);
+            this.tabPage1.TabIndex = 0;
+            this.tabPage1.Text = "Eastern";
+            this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // tabPage2
+            // 
+            this.tabPage2.Controls.Add(this.panel20);
+            this.tabPage2.Location = new System.Drawing.Point(4, 22);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(782, 312);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "Western";
+            this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // panel20
+            // 
+            this.panel20.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel20.Controls.Add(this.panel21);
+            this.panel20.Controls.Add(this.panel22);
+            this.panel20.Controls.Add(this.panel28);
+            this.panel20.Controls.Add(this.panel34);
+            this.panel20.Location = new System.Drawing.Point(3, 4);
+            this.panel20.Name = "panel20";
+            this.panel20.Size = new System.Drawing.Size(776, 308);
+            this.panel20.TabIndex = 14;
+            // 
+            // panel21
+            // 
+            this.panel21.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel21.Controls.Add(this.button62);
+            this.panel21.Controls.Add(this.pictureBox17);
+            this.panel21.Controls.Add(this.button63);
+            this.panel21.Controls.Add(this.button64);
+            this.panel21.Controls.Add(this.button65);
+            this.panel21.Location = new System.Drawing.Point(3, 186);
+            this.panel21.Name = "panel21";
+            this.panel21.Size = new System.Drawing.Size(252, 54);
+            this.panel21.TabIndex = 3;
+            // 
+            // button62
+            // 
+            this.button62.AutoSize = true;
+            this.button62.FlatAppearance.BorderSize = 0;
+            this.button62.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button62.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.button62.Location = new System.Drawing.Point(172, 24);
+            this.button62.Name = "button62";
+            this.button62.Size = new System.Drawing.Size(77, 25);
+            this.button62.TabIndex = 4;
+            this.button62.Text = "First Lineup";
+            this.button62.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox17
+            // 
+            this.pictureBox17.ErrorImage = null;
+            this.pictureBox17.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox17.Name = "pictureBox17";
+            this.pictureBox17.Size = new System.Drawing.Size(44, 45);
+            this.pictureBox17.TabIndex = 2;
+            this.pictureBox17.TabStop = false;
+            // 
+            // button63
+            // 
+            this.button63.AutoSize = true;
+            this.button63.FlatAppearance.BorderSize = 0;
+            this.button63.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button63.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.button63.Location = new System.Drawing.Point(105, 23);
+            this.button63.Name = "button63";
+            this.button63.Size = new System.Drawing.Size(63, 25);
+            this.button63.TabIndex = 4;
+            this.button63.Text = "Matchup";
+            this.button63.UseVisualStyleBackColor = true;
+            // 
+            // button64
+            // 
+            this.button64.BackColor = System.Drawing.SystemColors.Control;
+            this.button64.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.button64.FlatAppearance.BorderSize = 0;
+            this.button64.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+            this.button64.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.button64.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button64.Location = new System.Drawing.Point(53, 3);
+            this.button64.Name = "button64";
+            this.button64.Size = new System.Drawing.Size(75, 22);
+            this.button64.TabIndex = 3;
+            this.button64.Text = "Team name";
+            this.button64.UseVisualStyleBackColor = false;
+            // 
+            // button65
+            // 
+            this.button65.BackColor = System.Drawing.SystemColors.Control;
+            this.button65.FlatAppearance.BorderSize = 0;
+            this.button65.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button65.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.button65.Location = new System.Drawing.Point(53, 24);
+            this.button65.Name = "button65";
+            this.button65.Size = new System.Drawing.Size(54, 23);
+            this.button65.TabIndex = 4;
+            this.button65.Text = "Roster";
+            this.button65.UseVisualStyleBackColor = false;
+            // 
+            // panel22
+            // 
+            this.panel22.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel22.Controls.Add(this.panel23);
+            this.panel22.Controls.Add(this.panel24);
+            this.panel22.Controls.Add(this.panel25);
+            this.panel22.Controls.Add(this.panel26);
+            this.panel22.Controls.Add(this.panel27);
+            this.panel22.Controls.Add(this.label7);
+            this.panel22.Location = new System.Drawing.Point(519, 3);
+            this.panel22.Name = "panel22";
+            this.panel22.Size = new System.Drawing.Size(252, 300);
+            this.panel22.TabIndex = 2;
+            // 
+            // panel23
+            // 
+            this.panel23.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel23.Controls.Add(this.button66);
+            this.panel23.Controls.Add(this.pictureBox18);
+            this.panel23.Controls.Add(this.button67);
+            this.panel23.Controls.Add(this.button68);
+            this.panel23.Controls.Add(this.button69);
+            this.panel23.Location = new System.Drawing.Point(-1, 182);
+            this.panel23.Name = "panel23";
+            this.panel23.Size = new System.Drawing.Size(252, 54);
+            this.panel23.TabIndex = 3;
+            // 
+            // button66
+            // 
+            this.button66.AutoSize = true;
+            this.button66.FlatAppearance.BorderSize = 0;
+            this.button66.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button66.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.button66.Location = new System.Drawing.Point(172, 24);
+            this.button66.Name = "button66";
+            this.button66.Size = new System.Drawing.Size(77, 25);
+            this.button66.TabIndex = 4;
+            this.button66.Text = "First Lineup";
+            this.button66.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox18
+            // 
+            this.pictureBox18.ErrorImage = null;
+            this.pictureBox18.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox18.Name = "pictureBox18";
+            this.pictureBox18.Size = new System.Drawing.Size(44, 45);
+            this.pictureBox18.TabIndex = 2;
+            this.pictureBox18.TabStop = false;
+            // 
+            // button67
+            // 
+            this.button67.AutoSize = true;
+            this.button67.FlatAppearance.BorderSize = 0;
+            this.button67.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button67.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.button67.Location = new System.Drawing.Point(105, 23);
+            this.button67.Name = "button67";
+            this.button67.Size = new System.Drawing.Size(63, 25);
+            this.button67.TabIndex = 4;
+            this.button67.Text = "Matchup";
+            this.button67.UseVisualStyleBackColor = true;
+            // 
+            // button68
+            // 
+            this.button68.BackColor = System.Drawing.SystemColors.Control;
+            this.button68.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.button68.FlatAppearance.BorderSize = 0;
+            this.button68.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+            this.button68.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.button68.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button68.Location = new System.Drawing.Point(53, 3);
+            this.button68.Name = "button68";
+            this.button68.Size = new System.Drawing.Size(75, 22);
+            this.button68.TabIndex = 3;
+            this.button68.Text = "Team name";
+            this.button68.UseVisualStyleBackColor = false;
+            // 
+            // button69
+            // 
+            this.button69.BackColor = System.Drawing.SystemColors.Control;
+            this.button69.FlatAppearance.BorderSize = 0;
+            this.button69.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button69.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.button69.Location = new System.Drawing.Point(53, 24);
+            this.button69.Name = "button69";
+            this.button69.Size = new System.Drawing.Size(54, 23);
+            this.button69.TabIndex = 4;
+            this.button69.Text = "Roster";
+            this.button69.UseVisualStyleBackColor = false;
+            // 
+            // panel24
+            // 
+            this.panel24.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel24.Controls.Add(this.button70);
+            this.panel24.Controls.Add(this.pictureBox19);
+            this.panel24.Controls.Add(this.button71);
+            this.panel24.Controls.Add(this.button72);
+            this.panel24.Controls.Add(this.button73);
+            this.panel24.Location = new System.Drawing.Point(-1, 236);
+            this.panel24.Name = "panel24";
+            this.panel24.Size = new System.Drawing.Size(252, 54);
+            this.panel24.TabIndex = 3;
+            // 
+            // button70
+            // 
+            this.button70.AutoSize = true;
+            this.button70.FlatAppearance.BorderSize = 0;
+            this.button70.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button70.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.button70.Location = new System.Drawing.Point(172, 24);
+            this.button70.Name = "button70";
+            this.button70.Size = new System.Drawing.Size(77, 25);
+            this.button70.TabIndex = 4;
+            this.button70.Text = "First Lineup";
+            this.button70.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox19
+            // 
+            this.pictureBox19.ErrorImage = null;
+            this.pictureBox19.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox19.Name = "pictureBox19";
+            this.pictureBox19.Size = new System.Drawing.Size(44, 45);
+            this.pictureBox19.TabIndex = 2;
+            this.pictureBox19.TabStop = false;
+            // 
+            // button71
+            // 
+            this.button71.AutoSize = true;
+            this.button71.FlatAppearance.BorderSize = 0;
+            this.button71.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button71.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.button71.Location = new System.Drawing.Point(105, 23);
+            this.button71.Name = "button71";
+            this.button71.Size = new System.Drawing.Size(63, 25);
+            this.button71.TabIndex = 4;
+            this.button71.Text = "Matchup";
+            this.button71.UseVisualStyleBackColor = true;
+            // 
+            // button72
+            // 
+            this.button72.BackColor = System.Drawing.SystemColors.Control;
+            this.button72.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.button72.FlatAppearance.BorderSize = 0;
+            this.button72.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+            this.button72.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.button72.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button72.Location = new System.Drawing.Point(53, 3);
+            this.button72.Name = "button72";
+            this.button72.Size = new System.Drawing.Size(75, 22);
+            this.button72.TabIndex = 3;
+            this.button72.Text = "Team name";
+            this.button72.UseVisualStyleBackColor = false;
+            // 
+            // button73
+            // 
+            this.button73.BackColor = System.Drawing.SystemColors.Control;
+            this.button73.FlatAppearance.BorderSize = 0;
+            this.button73.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button73.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.button73.Location = new System.Drawing.Point(53, 24);
+            this.button73.Name = "button73";
+            this.button73.Size = new System.Drawing.Size(54, 23);
+            this.button73.TabIndex = 4;
+            this.button73.Text = "Roster";
+            this.button73.UseVisualStyleBackColor = false;
+            // 
+            // panel25
+            // 
+            this.panel25.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel25.Controls.Add(this.button74);
+            this.panel25.Controls.Add(this.pictureBox20);
+            this.panel25.Controls.Add(this.button75);
+            this.panel25.Controls.Add(this.button76);
+            this.panel25.Controls.Add(this.button77);
+            this.panel25.Location = new System.Drawing.Point(-1, 74);
+            this.panel25.Name = "panel25";
+            this.panel25.Size = new System.Drawing.Size(252, 54);
+            this.panel25.TabIndex = 3;
+            // 
+            // button74
+            // 
+            this.button74.AutoSize = true;
+            this.button74.FlatAppearance.BorderSize = 0;
+            this.button74.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button74.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.button74.Location = new System.Drawing.Point(172, 24);
+            this.button74.Name = "button74";
+            this.button74.Size = new System.Drawing.Size(77, 25);
+            this.button74.TabIndex = 4;
+            this.button74.Text = "First Lineup";
+            this.button74.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox20
+            // 
+            this.pictureBox20.ErrorImage = null;
+            this.pictureBox20.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox20.Name = "pictureBox20";
+            this.pictureBox20.Size = new System.Drawing.Size(44, 45);
+            this.pictureBox20.TabIndex = 2;
+            this.pictureBox20.TabStop = false;
+            // 
+            // button75
+            // 
+            this.button75.AutoSize = true;
+            this.button75.FlatAppearance.BorderSize = 0;
+            this.button75.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button75.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.button75.Location = new System.Drawing.Point(105, 23);
+            this.button75.Name = "button75";
+            this.button75.Size = new System.Drawing.Size(63, 25);
+            this.button75.TabIndex = 4;
+            this.button75.Text = "Matchup";
+            this.button75.UseVisualStyleBackColor = true;
+            // 
+            // button76
+            // 
+            this.button76.BackColor = System.Drawing.SystemColors.Control;
+            this.button76.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.button76.FlatAppearance.BorderSize = 0;
+            this.button76.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+            this.button76.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.button76.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button76.Location = new System.Drawing.Point(53, 3);
+            this.button76.Name = "button76";
+            this.button76.Size = new System.Drawing.Size(75, 22);
+            this.button76.TabIndex = 3;
+            this.button76.Text = "Team name";
+            this.button76.UseVisualStyleBackColor = false;
+            // 
+            // button77
+            // 
+            this.button77.BackColor = System.Drawing.SystemColors.Control;
+            this.button77.FlatAppearance.BorderSize = 0;
+            this.button77.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button77.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.button77.Location = new System.Drawing.Point(53, 24);
+            this.button77.Name = "button77";
+            this.button77.Size = new System.Drawing.Size(54, 23);
+            this.button77.TabIndex = 4;
+            this.button77.Text = "Roster";
+            this.button77.UseVisualStyleBackColor = false;
+            // 
+            // panel26
+            // 
+            this.panel26.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel26.Controls.Add(this.button78);
+            this.panel26.Controls.Add(this.pictureBox21);
+            this.panel26.Controls.Add(this.button79);
+            this.panel26.Controls.Add(this.button80);
+            this.panel26.Controls.Add(this.button81);
+            this.panel26.Location = new System.Drawing.Point(-1, 128);
+            this.panel26.Name = "panel26";
+            this.panel26.Size = new System.Drawing.Size(252, 54);
+            this.panel26.TabIndex = 3;
+            // 
+            // button78
+            // 
+            this.button78.AutoSize = true;
+            this.button78.FlatAppearance.BorderSize = 0;
+            this.button78.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button78.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.button78.Location = new System.Drawing.Point(172, 24);
+            this.button78.Name = "button78";
+            this.button78.Size = new System.Drawing.Size(77, 25);
+            this.button78.TabIndex = 4;
+            this.button78.Text = "First Lineup";
+            this.button78.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox21
+            // 
+            this.pictureBox21.ErrorImage = null;
+            this.pictureBox21.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox21.Name = "pictureBox21";
+            this.pictureBox21.Size = new System.Drawing.Size(44, 45);
+            this.pictureBox21.TabIndex = 2;
+            this.pictureBox21.TabStop = false;
+            // 
+            // button79
+            // 
+            this.button79.AutoSize = true;
+            this.button79.FlatAppearance.BorderSize = 0;
+            this.button79.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button79.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.button79.Location = new System.Drawing.Point(105, 23);
+            this.button79.Name = "button79";
+            this.button79.Size = new System.Drawing.Size(63, 25);
+            this.button79.TabIndex = 4;
+            this.button79.Text = "Matchup";
+            this.button79.UseVisualStyleBackColor = true;
+            // 
+            // button80
+            // 
+            this.button80.BackColor = System.Drawing.SystemColors.Control;
+            this.button80.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.button80.FlatAppearance.BorderSize = 0;
+            this.button80.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+            this.button80.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.button80.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button80.Location = new System.Drawing.Point(53, 3);
+            this.button80.Name = "button80";
+            this.button80.Size = new System.Drawing.Size(75, 22);
+            this.button80.TabIndex = 3;
+            this.button80.Text = "Team name";
+            this.button80.UseVisualStyleBackColor = false;
+            // 
+            // button81
+            // 
+            this.button81.BackColor = System.Drawing.SystemColors.Control;
+            this.button81.FlatAppearance.BorderSize = 0;
+            this.button81.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button81.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.button81.Location = new System.Drawing.Point(53, 24);
+            this.button81.Name = "button81";
+            this.button81.Size = new System.Drawing.Size(54, 23);
+            this.button81.TabIndex = 4;
+            this.button81.Text = "Roster";
+            this.button81.UseVisualStyleBackColor = false;
+            // 
+            // panel27
+            // 
+            this.panel27.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel27.Controls.Add(this.button82);
+            this.panel27.Controls.Add(this.pictureBox22);
+            this.panel27.Controls.Add(this.button83);
+            this.panel27.Controls.Add(this.button84);
+            this.panel27.Controls.Add(this.button85);
+            this.panel27.Location = new System.Drawing.Point(-1, 20);
+            this.panel27.Name = "panel27";
+            this.panel27.Size = new System.Drawing.Size(252, 54);
+            this.panel27.TabIndex = 3;
+            // 
+            // button82
+            // 
+            this.button82.AutoSize = true;
+            this.button82.FlatAppearance.BorderSize = 0;
+            this.button82.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button82.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.button82.Location = new System.Drawing.Point(172, 24);
+            this.button82.Name = "button82";
+            this.button82.Size = new System.Drawing.Size(77, 25);
+            this.button82.TabIndex = 4;
+            this.button82.Text = "First Lineup";
+            this.button82.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox22
+            // 
+            this.pictureBox22.ErrorImage = null;
+            this.pictureBox22.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox22.Name = "pictureBox22";
+            this.pictureBox22.Size = new System.Drawing.Size(44, 45);
+            this.pictureBox22.TabIndex = 2;
+            this.pictureBox22.TabStop = false;
+            // 
+            // button83
+            // 
+            this.button83.AutoSize = true;
+            this.button83.FlatAppearance.BorderSize = 0;
+            this.button83.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button83.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.button83.Location = new System.Drawing.Point(105, 23);
+            this.button83.Name = "button83";
+            this.button83.Size = new System.Drawing.Size(63, 25);
+            this.button83.TabIndex = 4;
+            this.button83.Text = "Matchup";
+            this.button83.UseVisualStyleBackColor = true;
+            // 
+            // button84
+            // 
+            this.button84.BackColor = System.Drawing.SystemColors.Control;
+            this.button84.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.button84.FlatAppearance.BorderSize = 0;
+            this.button84.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+            this.button84.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.button84.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button84.Location = new System.Drawing.Point(53, 3);
+            this.button84.Name = "button84";
+            this.button84.Size = new System.Drawing.Size(75, 22);
+            this.button84.TabIndex = 3;
+            this.button84.Text = "Team name";
+            this.button84.UseVisualStyleBackColor = false;
+            // 
+            // button85
+            // 
+            this.button85.BackColor = System.Drawing.SystemColors.Control;
+            this.button85.FlatAppearance.BorderSize = 0;
+            this.button85.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button85.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.button85.Location = new System.Drawing.Point(53, 24);
+            this.button85.Name = "button85";
+            this.button85.Size = new System.Drawing.Size(54, 23);
+            this.button85.TabIndex = 4;
+            this.button85.Text = "Roster";
+            this.button85.UseVisualStyleBackColor = false;
+            // 
+            // label7
+            // 
+            this.label7.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.label7.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label7.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.label7.Location = new System.Drawing.Point(-1, -1);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(252, 23);
+            this.label7.TabIndex = 0;
+            this.label7.Text = "Southeast";
+            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // panel28
+            // 
+            this.panel28.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel28.Controls.Add(this.panel29);
+            this.panel28.Controls.Add(this.panel30);
+            this.panel28.Controls.Add(this.panel31);
+            this.panel28.Controls.Add(this.panel32);
+            this.panel28.Controls.Add(this.panel33);
+            this.panel28.Controls.Add(this.label8);
+            this.panel28.Location = new System.Drawing.Point(261, 3);
+            this.panel28.Name = "panel28";
+            this.panel28.Size = new System.Drawing.Size(252, 300);
+            this.panel28.TabIndex = 2;
+            // 
+            // panel29
+            // 
+            this.panel29.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel29.Controls.Add(this.button86);
+            this.panel29.Controls.Add(this.pictureBox23);
+            this.panel29.Controls.Add(this.button87);
+            this.panel29.Controls.Add(this.button88);
+            this.panel29.Controls.Add(this.button89);
+            this.panel29.Location = new System.Drawing.Point(-1, 182);
+            this.panel29.Name = "panel29";
+            this.panel29.Size = new System.Drawing.Size(252, 54);
+            this.panel29.TabIndex = 3;
+            // 
+            // button86
+            // 
+            this.button86.AutoSize = true;
+            this.button86.FlatAppearance.BorderSize = 0;
+            this.button86.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button86.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.button86.Location = new System.Drawing.Point(172, 24);
+            this.button86.Name = "button86";
+            this.button86.Size = new System.Drawing.Size(77, 25);
+            this.button86.TabIndex = 4;
+            this.button86.Text = "First Lineup";
+            this.button86.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox23
+            // 
+            this.pictureBox23.ErrorImage = null;
+            this.pictureBox23.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox23.Name = "pictureBox23";
+            this.pictureBox23.Size = new System.Drawing.Size(44, 45);
+            this.pictureBox23.TabIndex = 2;
+            this.pictureBox23.TabStop = false;
+            // 
+            // button87
+            // 
+            this.button87.AutoSize = true;
+            this.button87.FlatAppearance.BorderSize = 0;
+            this.button87.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button87.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.button87.Location = new System.Drawing.Point(105, 23);
+            this.button87.Name = "button87";
+            this.button87.Size = new System.Drawing.Size(63, 25);
+            this.button87.TabIndex = 4;
+            this.button87.Text = "Matchup";
+            this.button87.UseVisualStyleBackColor = true;
+            // 
+            // button88
+            // 
+            this.button88.BackColor = System.Drawing.SystemColors.Control;
+            this.button88.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.button88.FlatAppearance.BorderSize = 0;
+            this.button88.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+            this.button88.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.button88.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button88.Location = new System.Drawing.Point(53, 3);
+            this.button88.Name = "button88";
+            this.button88.Size = new System.Drawing.Size(75, 22);
+            this.button88.TabIndex = 3;
+            this.button88.Text = "Team name";
+            this.button88.UseVisualStyleBackColor = false;
+            // 
+            // button89
+            // 
+            this.button89.BackColor = System.Drawing.SystemColors.Control;
+            this.button89.FlatAppearance.BorderSize = 0;
+            this.button89.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button89.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.button89.Location = new System.Drawing.Point(53, 24);
+            this.button89.Name = "button89";
+            this.button89.Size = new System.Drawing.Size(54, 23);
+            this.button89.TabIndex = 4;
+            this.button89.Text = "Roster";
+            this.button89.UseVisualStyleBackColor = false;
+            // 
+            // panel30
+            // 
+            this.panel30.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel30.Controls.Add(this.button90);
+            this.panel30.Controls.Add(this.pictureBox24);
+            this.panel30.Controls.Add(this.button91);
+            this.panel30.Controls.Add(this.button92);
+            this.panel30.Controls.Add(this.button93);
+            this.panel30.Location = new System.Drawing.Point(-1, 236);
+            this.panel30.Name = "panel30";
+            this.panel30.Size = new System.Drawing.Size(252, 54);
+            this.panel30.TabIndex = 3;
+            // 
+            // button90
+            // 
+            this.button90.AutoSize = true;
+            this.button90.FlatAppearance.BorderSize = 0;
+            this.button90.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button90.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.button90.Location = new System.Drawing.Point(172, 24);
+            this.button90.Name = "button90";
+            this.button90.Size = new System.Drawing.Size(77, 25);
+            this.button90.TabIndex = 4;
+            this.button90.Text = "First Lineup";
+            this.button90.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox24
+            // 
+            this.pictureBox24.ErrorImage = null;
+            this.pictureBox24.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox24.Name = "pictureBox24";
+            this.pictureBox24.Size = new System.Drawing.Size(44, 45);
+            this.pictureBox24.TabIndex = 2;
+            this.pictureBox24.TabStop = false;
+            // 
+            // button91
+            // 
+            this.button91.AutoSize = true;
+            this.button91.FlatAppearance.BorderSize = 0;
+            this.button91.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button91.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.button91.Location = new System.Drawing.Point(105, 23);
+            this.button91.Name = "button91";
+            this.button91.Size = new System.Drawing.Size(63, 25);
+            this.button91.TabIndex = 4;
+            this.button91.Text = "Matchup";
+            this.button91.UseVisualStyleBackColor = true;
+            // 
+            // button92
+            // 
+            this.button92.BackColor = System.Drawing.SystemColors.Control;
+            this.button92.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.button92.FlatAppearance.BorderSize = 0;
+            this.button92.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+            this.button92.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.button92.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button92.Location = new System.Drawing.Point(53, 3);
+            this.button92.Name = "button92";
+            this.button92.Size = new System.Drawing.Size(75, 22);
+            this.button92.TabIndex = 3;
+            this.button92.Text = "Team name";
+            this.button92.UseVisualStyleBackColor = false;
+            // 
+            // button93
+            // 
+            this.button93.BackColor = System.Drawing.SystemColors.Control;
+            this.button93.FlatAppearance.BorderSize = 0;
+            this.button93.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button93.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.button93.Location = new System.Drawing.Point(53, 24);
+            this.button93.Name = "button93";
+            this.button93.Size = new System.Drawing.Size(54, 23);
+            this.button93.TabIndex = 4;
+            this.button93.Text = "Roster";
+            this.button93.UseVisualStyleBackColor = false;
+            // 
+            // panel31
+            // 
+            this.panel31.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel31.Controls.Add(this.button94);
+            this.panel31.Controls.Add(this.pictureBox25);
+            this.panel31.Controls.Add(this.button95);
+            this.panel31.Controls.Add(this.button96);
+            this.panel31.Controls.Add(this.button97);
+            this.panel31.Location = new System.Drawing.Point(-1, 74);
+            this.panel31.Name = "panel31";
+            this.panel31.Size = new System.Drawing.Size(252, 54);
+            this.panel31.TabIndex = 3;
+            // 
+            // button94
+            // 
+            this.button94.AutoSize = true;
+            this.button94.FlatAppearance.BorderSize = 0;
+            this.button94.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button94.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.button94.Location = new System.Drawing.Point(172, 24);
+            this.button94.Name = "button94";
+            this.button94.Size = new System.Drawing.Size(77, 25);
+            this.button94.TabIndex = 4;
+            this.button94.Text = "First Lineup";
+            this.button94.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox25
+            // 
+            this.pictureBox25.ErrorImage = null;
+            this.pictureBox25.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox25.Name = "pictureBox25";
+            this.pictureBox25.Size = new System.Drawing.Size(44, 45);
+            this.pictureBox25.TabIndex = 2;
+            this.pictureBox25.TabStop = false;
+            // 
+            // button95
+            // 
+            this.button95.AutoSize = true;
+            this.button95.FlatAppearance.BorderSize = 0;
+            this.button95.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button95.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.button95.Location = new System.Drawing.Point(105, 23);
+            this.button95.Name = "button95";
+            this.button95.Size = new System.Drawing.Size(63, 25);
+            this.button95.TabIndex = 4;
+            this.button95.Text = "Matchup";
+            this.button95.UseVisualStyleBackColor = true;
+            // 
+            // button96
+            // 
+            this.button96.BackColor = System.Drawing.SystemColors.Control;
+            this.button96.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.button96.FlatAppearance.BorderSize = 0;
+            this.button96.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+            this.button96.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.button96.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button96.Location = new System.Drawing.Point(53, 3);
+            this.button96.Name = "button96";
+            this.button96.Size = new System.Drawing.Size(75, 22);
+            this.button96.TabIndex = 3;
+            this.button96.Text = "Team name";
+            this.button96.UseVisualStyleBackColor = false;
+            // 
+            // button97
+            // 
+            this.button97.BackColor = System.Drawing.SystemColors.Control;
+            this.button97.FlatAppearance.BorderSize = 0;
+            this.button97.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button97.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.button97.Location = new System.Drawing.Point(53, 24);
+            this.button97.Name = "button97";
+            this.button97.Size = new System.Drawing.Size(54, 23);
+            this.button97.TabIndex = 4;
+            this.button97.Text = "Roster";
+            this.button97.UseVisualStyleBackColor = false;
+            // 
+            // panel32
+            // 
+            this.panel32.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel32.Controls.Add(this.button98);
+            this.panel32.Controls.Add(this.pictureBox26);
+            this.panel32.Controls.Add(this.button99);
+            this.panel32.Controls.Add(this.button100);
+            this.panel32.Controls.Add(this.button101);
+            this.panel32.Location = new System.Drawing.Point(-1, 128);
+            this.panel32.Name = "panel32";
+            this.panel32.Size = new System.Drawing.Size(252, 54);
+            this.panel32.TabIndex = 3;
+            // 
+            // button98
+            // 
+            this.button98.AutoSize = true;
+            this.button98.FlatAppearance.BorderSize = 0;
+            this.button98.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button98.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.button98.Location = new System.Drawing.Point(172, 24);
+            this.button98.Name = "button98";
+            this.button98.Size = new System.Drawing.Size(77, 25);
+            this.button98.TabIndex = 4;
+            this.button98.Text = "First Lineup";
+            this.button98.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox26
+            // 
+            this.pictureBox26.ErrorImage = null;
+            this.pictureBox26.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox26.Name = "pictureBox26";
+            this.pictureBox26.Size = new System.Drawing.Size(44, 45);
+            this.pictureBox26.TabIndex = 2;
+            this.pictureBox26.TabStop = false;
+            // 
+            // button99
+            // 
+            this.button99.AutoSize = true;
+            this.button99.FlatAppearance.BorderSize = 0;
+            this.button99.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button99.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.button99.Location = new System.Drawing.Point(105, 23);
+            this.button99.Name = "button99";
+            this.button99.Size = new System.Drawing.Size(63, 25);
+            this.button99.TabIndex = 4;
+            this.button99.Text = "Matchup";
+            this.button99.UseVisualStyleBackColor = true;
+            // 
+            // button100
+            // 
+            this.button100.BackColor = System.Drawing.SystemColors.Control;
+            this.button100.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.button100.FlatAppearance.BorderSize = 0;
+            this.button100.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+            this.button100.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.button100.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button100.Location = new System.Drawing.Point(53, 3);
+            this.button100.Name = "button100";
+            this.button100.Size = new System.Drawing.Size(75, 22);
+            this.button100.TabIndex = 3;
+            this.button100.Text = "Team name";
+            this.button100.UseVisualStyleBackColor = false;
+            // 
+            // button101
+            // 
+            this.button101.BackColor = System.Drawing.SystemColors.Control;
+            this.button101.FlatAppearance.BorderSize = 0;
+            this.button101.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button101.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.button101.Location = new System.Drawing.Point(53, 24);
+            this.button101.Name = "button101";
+            this.button101.Size = new System.Drawing.Size(54, 23);
+            this.button101.TabIndex = 4;
+            this.button101.Text = "Roster";
+            this.button101.UseVisualStyleBackColor = false;
+            // 
+            // panel33
+            // 
+            this.panel33.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel33.Controls.Add(this.button102);
+            this.panel33.Controls.Add(this.pictureBox27);
+            this.panel33.Controls.Add(this.button103);
+            this.panel33.Controls.Add(this.button104);
+            this.panel33.Controls.Add(this.button105);
+            this.panel33.Location = new System.Drawing.Point(-1, 20);
+            this.panel33.Name = "panel33";
+            this.panel33.Size = new System.Drawing.Size(252, 54);
+            this.panel33.TabIndex = 3;
+            // 
+            // button102
+            // 
+            this.button102.AutoSize = true;
+            this.button102.FlatAppearance.BorderSize = 0;
+            this.button102.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button102.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.button102.Location = new System.Drawing.Point(172, 24);
+            this.button102.Name = "button102";
+            this.button102.Size = new System.Drawing.Size(77, 25);
+            this.button102.TabIndex = 4;
+            this.button102.Text = "First Lineup";
+            this.button102.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox27
+            // 
+            this.pictureBox27.ErrorImage = null;
+            this.pictureBox27.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox27.Name = "pictureBox27";
+            this.pictureBox27.Size = new System.Drawing.Size(44, 45);
+            this.pictureBox27.TabIndex = 2;
+            this.pictureBox27.TabStop = false;
+            // 
+            // button103
+            // 
+            this.button103.AutoSize = true;
+            this.button103.FlatAppearance.BorderSize = 0;
+            this.button103.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button103.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.button103.Location = new System.Drawing.Point(105, 23);
+            this.button103.Name = "button103";
+            this.button103.Size = new System.Drawing.Size(63, 25);
+            this.button103.TabIndex = 4;
+            this.button103.Text = "Matchup";
+            this.button103.UseVisualStyleBackColor = true;
+            // 
+            // button104
+            // 
+            this.button104.BackColor = System.Drawing.SystemColors.Control;
+            this.button104.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.button104.FlatAppearance.BorderSize = 0;
+            this.button104.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+            this.button104.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.button104.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button104.Location = new System.Drawing.Point(53, 3);
+            this.button104.Name = "button104";
+            this.button104.Size = new System.Drawing.Size(75, 22);
+            this.button104.TabIndex = 3;
+            this.button104.Text = "Team name";
+            this.button104.UseVisualStyleBackColor = false;
+            // 
+            // button105
+            // 
+            this.button105.BackColor = System.Drawing.SystemColors.Control;
+            this.button105.FlatAppearance.BorderSize = 0;
+            this.button105.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button105.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.button105.Location = new System.Drawing.Point(53, 24);
+            this.button105.Name = "button105";
+            this.button105.Size = new System.Drawing.Size(54, 23);
+            this.button105.TabIndex = 4;
+            this.button105.Text = "Roster";
+            this.button105.UseVisualStyleBackColor = false;
+            // 
+            // label8
+            // 
+            this.label8.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.label8.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label8.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.label8.Location = new System.Drawing.Point(-1, -1);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(252, 23);
+            this.label8.TabIndex = 0;
+            this.label8.Text = "Pacific";
+            this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // panel34
+            // 
+            this.panel34.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel34.Controls.Add(this.panel35);
+            this.panel34.Controls.Add(this.panel36);
+            this.panel34.Controls.Add(this.panel37);
+            this.panel34.Controls.Add(this.panel38);
+            this.panel34.Controls.Add(this.label9);
+            this.panel34.Location = new System.Drawing.Point(3, 3);
+            this.panel34.Name = "panel34";
+            this.panel34.Size = new System.Drawing.Size(252, 300);
+            this.panel34.TabIndex = 2;
+            // 
+            // panel35
+            // 
+            this.panel35.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel35.Controls.Add(this.button106);
+            this.panel35.Controls.Add(this.pictureBox28);
+            this.panel35.Controls.Add(this.button107);
+            this.panel35.Controls.Add(this.button108);
+            this.panel35.Controls.Add(this.button109);
+            this.panel35.Location = new System.Drawing.Point(-1, 236);
+            this.panel35.Name = "panel35";
+            this.panel35.Size = new System.Drawing.Size(252, 54);
+            this.panel35.TabIndex = 3;
+            // 
+            // button106
+            // 
+            this.button106.AutoSize = true;
+            this.button106.FlatAppearance.BorderSize = 0;
+            this.button106.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button106.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.button106.Location = new System.Drawing.Point(172, 24);
+            this.button106.Name = "button106";
+            this.button106.Size = new System.Drawing.Size(77, 25);
+            this.button106.TabIndex = 4;
+            this.button106.Text = "First Lineup";
+            this.button106.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox28
+            // 
+            this.pictureBox28.ErrorImage = null;
+            this.pictureBox28.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox28.Name = "pictureBox28";
+            this.pictureBox28.Size = new System.Drawing.Size(44, 45);
+            this.pictureBox28.TabIndex = 2;
+            this.pictureBox28.TabStop = false;
+            // 
+            // button107
+            // 
+            this.button107.AutoSize = true;
+            this.button107.FlatAppearance.BorderSize = 0;
+            this.button107.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button107.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.button107.Location = new System.Drawing.Point(105, 23);
+            this.button107.Name = "button107";
+            this.button107.Size = new System.Drawing.Size(63, 25);
+            this.button107.TabIndex = 4;
+            this.button107.Text = "Matchup";
+            this.button107.UseVisualStyleBackColor = true;
+            // 
+            // button108
+            // 
+            this.button108.BackColor = System.Drawing.SystemColors.Control;
+            this.button108.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.button108.FlatAppearance.BorderSize = 0;
+            this.button108.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+            this.button108.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.button108.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button108.Location = new System.Drawing.Point(53, 3);
+            this.button108.Name = "button108";
+            this.button108.Size = new System.Drawing.Size(75, 22);
+            this.button108.TabIndex = 3;
+            this.button108.Text = "Team name";
+            this.button108.UseVisualStyleBackColor = false;
+            // 
+            // button109
+            // 
+            this.button109.BackColor = System.Drawing.SystemColors.Control;
+            this.button109.FlatAppearance.BorderSize = 0;
+            this.button109.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button109.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.button109.Location = new System.Drawing.Point(53, 24);
+            this.button109.Name = "button109";
+            this.button109.Size = new System.Drawing.Size(54, 23);
+            this.button109.TabIndex = 4;
+            this.button109.Text = "Roster";
+            this.button109.UseVisualStyleBackColor = false;
+            // 
+            // panel36
+            // 
+            this.panel36.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel36.Controls.Add(this.button110);
+            this.panel36.Controls.Add(this.pictureBox29);
+            this.panel36.Controls.Add(this.button111);
+            this.panel36.Controls.Add(this.button112);
+            this.panel36.Controls.Add(this.button113);
+            this.panel36.Location = new System.Drawing.Point(-1, 74);
+            this.panel36.Name = "panel36";
+            this.panel36.Size = new System.Drawing.Size(252, 54);
+            this.panel36.TabIndex = 3;
+            // 
+            // button110
+            // 
+            this.button110.AutoSize = true;
+            this.button110.FlatAppearance.BorderSize = 0;
+            this.button110.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button110.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.button110.Location = new System.Drawing.Point(172, 24);
+            this.button110.Name = "button110";
+            this.button110.Size = new System.Drawing.Size(77, 25);
+            this.button110.TabIndex = 4;
+            this.button110.Text = "First Lineup";
+            this.button110.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox29
+            // 
+            this.pictureBox29.ErrorImage = null;
+            this.pictureBox29.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox29.Name = "pictureBox29";
+            this.pictureBox29.Size = new System.Drawing.Size(44, 45);
+            this.pictureBox29.TabIndex = 2;
+            this.pictureBox29.TabStop = false;
+            // 
+            // button111
+            // 
+            this.button111.AutoSize = true;
+            this.button111.FlatAppearance.BorderSize = 0;
+            this.button111.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button111.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.button111.Location = new System.Drawing.Point(105, 23);
+            this.button111.Name = "button111";
+            this.button111.Size = new System.Drawing.Size(63, 25);
+            this.button111.TabIndex = 4;
+            this.button111.Text = "Matchup";
+            this.button111.UseVisualStyleBackColor = true;
+            // 
+            // button112
+            // 
+            this.button112.BackColor = System.Drawing.SystemColors.Control;
+            this.button112.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.button112.FlatAppearance.BorderSize = 0;
+            this.button112.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+            this.button112.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.button112.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button112.Location = new System.Drawing.Point(53, 3);
+            this.button112.Name = "button112";
+            this.button112.Size = new System.Drawing.Size(75, 22);
+            this.button112.TabIndex = 3;
+            this.button112.Text = "Team name";
+            this.button112.UseVisualStyleBackColor = false;
+            // 
+            // button113
+            // 
+            this.button113.BackColor = System.Drawing.SystemColors.Control;
+            this.button113.FlatAppearance.BorderSize = 0;
+            this.button113.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button113.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.button113.Location = new System.Drawing.Point(53, 24);
+            this.button113.Name = "button113";
+            this.button113.Size = new System.Drawing.Size(54, 23);
+            this.button113.TabIndex = 4;
+            this.button113.Text = "Roster";
+            this.button113.UseVisualStyleBackColor = false;
+            // 
+            // panel37
+            // 
+            this.panel37.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel37.Controls.Add(this.button114);
+            this.panel37.Controls.Add(this.pictureBox30);
+            this.panel37.Controls.Add(this.button115);
+            this.panel37.Controls.Add(this.button116);
+            this.panel37.Controls.Add(this.button117);
+            this.panel37.Location = new System.Drawing.Point(-1, 128);
+            this.panel37.Name = "panel37";
+            this.panel37.Size = new System.Drawing.Size(252, 54);
+            this.panel37.TabIndex = 3;
+            // 
+            // button114
+            // 
+            this.button114.AutoSize = true;
+            this.button114.FlatAppearance.BorderSize = 0;
+            this.button114.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button114.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.button114.Location = new System.Drawing.Point(172, 24);
+            this.button114.Name = "button114";
+            this.button114.Size = new System.Drawing.Size(77, 25);
+            this.button114.TabIndex = 4;
+            this.button114.Text = "First Lineup";
+            this.button114.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox30
+            // 
+            this.pictureBox30.ErrorImage = null;
+            this.pictureBox30.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox30.Name = "pictureBox30";
+            this.pictureBox30.Size = new System.Drawing.Size(44, 45);
+            this.pictureBox30.TabIndex = 2;
+            this.pictureBox30.TabStop = false;
+            // 
+            // button115
+            // 
+            this.button115.AutoSize = true;
+            this.button115.FlatAppearance.BorderSize = 0;
+            this.button115.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button115.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.button115.Location = new System.Drawing.Point(105, 23);
+            this.button115.Name = "button115";
+            this.button115.Size = new System.Drawing.Size(63, 25);
+            this.button115.TabIndex = 4;
+            this.button115.Text = "Matchup";
+            this.button115.UseVisualStyleBackColor = true;
+            // 
+            // button116
+            // 
+            this.button116.BackColor = System.Drawing.SystemColors.Control;
+            this.button116.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.button116.FlatAppearance.BorderSize = 0;
+            this.button116.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+            this.button116.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.button116.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button116.Location = new System.Drawing.Point(53, 3);
+            this.button116.Name = "button116";
+            this.button116.Size = new System.Drawing.Size(75, 22);
+            this.button116.TabIndex = 3;
+            this.button116.Text = "Team name";
+            this.button116.UseVisualStyleBackColor = false;
+            // 
+            // button117
+            // 
+            this.button117.BackColor = System.Drawing.SystemColors.Control;
+            this.button117.FlatAppearance.BorderSize = 0;
+            this.button117.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button117.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.button117.Location = new System.Drawing.Point(53, 24);
+            this.button117.Name = "button117";
+            this.button117.Size = new System.Drawing.Size(54, 23);
+            this.button117.TabIndex = 4;
+            this.button117.Text = "Roster";
+            this.button117.UseVisualStyleBackColor = false;
+            // 
+            // panel38
+            // 
+            this.panel38.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel38.Controls.Add(this.button118);
+            this.panel38.Controls.Add(this.pictureBox31);
+            this.panel38.Controls.Add(this.button119);
+            this.panel38.Controls.Add(this.button120);
+            this.panel38.Controls.Add(this.button121);
+            this.panel38.Location = new System.Drawing.Point(-1, 20);
+            this.panel38.Name = "panel38";
+            this.panel38.Size = new System.Drawing.Size(252, 54);
+            this.panel38.TabIndex = 3;
+            // 
+            // button118
+            // 
+            this.button118.AutoSize = true;
+            this.button118.FlatAppearance.BorderSize = 0;
+            this.button118.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button118.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.button118.Location = new System.Drawing.Point(172, 24);
+            this.button118.Name = "button118";
+            this.button118.Size = new System.Drawing.Size(77, 25);
+            this.button118.TabIndex = 4;
+            this.button118.Text = "First Lineup";
+            this.button118.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox31
+            // 
+            this.pictureBox31.ErrorImage = null;
+            this.pictureBox31.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox31.Name = "pictureBox31";
+            this.pictureBox31.Size = new System.Drawing.Size(44, 45);
+            this.pictureBox31.TabIndex = 2;
+            this.pictureBox31.TabStop = false;
+            // 
+            // button119
+            // 
+            this.button119.AutoSize = true;
+            this.button119.FlatAppearance.BorderSize = 0;
+            this.button119.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button119.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.button119.Location = new System.Drawing.Point(105, 23);
+            this.button119.Name = "button119";
+            this.button119.Size = new System.Drawing.Size(63, 25);
+            this.button119.TabIndex = 4;
+            this.button119.Text = "Matchup";
+            this.button119.UseVisualStyleBackColor = true;
+            // 
+            // button120
+            // 
+            this.button120.BackColor = System.Drawing.SystemColors.Control;
+            this.button120.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.button120.FlatAppearance.BorderSize = 0;
+            this.button120.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+            this.button120.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.button120.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button120.Location = new System.Drawing.Point(53, 3);
+            this.button120.Name = "button120";
+            this.button120.Size = new System.Drawing.Size(75, 22);
+            this.button120.TabIndex = 3;
+            this.button120.Text = "Team name";
+            this.button120.UseVisualStyleBackColor = false;
+            // 
+            // button121
+            // 
+            this.button121.BackColor = System.Drawing.SystemColors.Control;
+            this.button121.FlatAppearance.BorderSize = 0;
+            this.button121.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button121.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.button121.Location = new System.Drawing.Point(53, 24);
+            this.button121.Name = "button121";
+            this.button121.Size = new System.Drawing.Size(54, 23);
+            this.button121.TabIndex = 4;
+            this.button121.Text = "Roster";
+            this.button121.UseVisualStyleBackColor = false;
+            // 
+            // label9
+            // 
+            this.label9.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.label9.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label9.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.label9.Location = new System.Drawing.Point(-1, -1);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(252, 23);
+            this.label9.TabIndex = 0;
+            this.label9.Text = "Northwest";
+            this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // TeamsMain1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button63);
-            this.Controls.Add(this.button62);
-            this.Controls.Add(this.panel3);
+            this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.groupBox2);
             this.Name = "TeamsMain1";
@@ -1551,14 +2925,63 @@
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.tabControl1.ResumeLayout(false);
+            this.tabPage1.ResumeLayout(false);
+            this.tabPage2.ResumeLayout(false);
+            this.panel20.ResumeLayout(false);
+            this.panel21.ResumeLayout(false);
+            this.panel21.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
+            this.panel22.ResumeLayout(false);
+            this.panel23.ResumeLayout(false);
+            this.panel23.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
+            this.panel24.ResumeLayout(false);
+            this.panel24.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
+            this.panel25.ResumeLayout(false);
+            this.panel25.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).EndInit();
+            this.panel26.ResumeLayout(false);
+            this.panel26.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).EndInit();
+            this.panel27.ResumeLayout(false);
+            this.panel27.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).EndInit();
+            this.panel28.ResumeLayout(false);
+            this.panel29.ResumeLayout(false);
+            this.panel29.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).EndInit();
+            this.panel30.ResumeLayout(false);
+            this.panel30.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).EndInit();
+            this.panel31.ResumeLayout(false);
+            this.panel31.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).EndInit();
+            this.panel32.ResumeLayout(false);
+            this.panel32.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).EndInit();
+            this.panel33.ResumeLayout(false);
+            this.panel33.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).EndInit();
+            this.panel34.ResumeLayout(false);
+            this.panel35.ResumeLayout(false);
+            this.panel35.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).EndInit();
+            this.panel36.ResumeLayout(false);
+            this.panel36.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox29)).EndInit();
+            this.panel37.ResumeLayout(false);
+            this.panel37.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox30)).EndInit();
+            this.panel38.ResumeLayout(false);
+            this.panel38.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox31)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Button button63;
-        private System.Windows.Forms.Button button62;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel panel10;
         private System.Windows.Forms.Button button22;
@@ -1662,5 +3085,105 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.TabControl tabControl1;
+        private System.Windows.Forms.TabPage tabPage1;
+        private System.Windows.Forms.TabPage tabPage2;
+        private System.Windows.Forms.Panel panel20;
+        private System.Windows.Forms.Panel panel21;
+        private System.Windows.Forms.Button button62;
+        private System.Windows.Forms.PictureBox pictureBox17;
+        private System.Windows.Forms.Button button63;
+        private System.Windows.Forms.Button button64;
+        private System.Windows.Forms.Button button65;
+        private System.Windows.Forms.Panel panel22;
+        private System.Windows.Forms.Panel panel23;
+        private System.Windows.Forms.Button button66;
+        private System.Windows.Forms.PictureBox pictureBox18;
+        private System.Windows.Forms.Button button67;
+        private System.Windows.Forms.Button button68;
+        private System.Windows.Forms.Button button69;
+        private System.Windows.Forms.Panel panel24;
+        private System.Windows.Forms.Button button70;
+        private System.Windows.Forms.PictureBox pictureBox19;
+        private System.Windows.Forms.Button button71;
+        private System.Windows.Forms.Button button72;
+        private System.Windows.Forms.Button button73;
+        private System.Windows.Forms.Panel panel25;
+        private System.Windows.Forms.Button button74;
+        private System.Windows.Forms.PictureBox pictureBox20;
+        private System.Windows.Forms.Button button75;
+        private System.Windows.Forms.Button button76;
+        private System.Windows.Forms.Button button77;
+        private System.Windows.Forms.Panel panel26;
+        private System.Windows.Forms.Button button78;
+        private System.Windows.Forms.PictureBox pictureBox21;
+        private System.Windows.Forms.Button button79;
+        private System.Windows.Forms.Button button80;
+        private System.Windows.Forms.Button button81;
+        private System.Windows.Forms.Panel panel27;
+        private System.Windows.Forms.Button button82;
+        private System.Windows.Forms.PictureBox pictureBox22;
+        private System.Windows.Forms.Button button83;
+        private System.Windows.Forms.Button button84;
+        private System.Windows.Forms.Button button85;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Panel panel28;
+        private System.Windows.Forms.Panel panel29;
+        private System.Windows.Forms.Button button86;
+        private System.Windows.Forms.PictureBox pictureBox23;
+        private System.Windows.Forms.Button button87;
+        private System.Windows.Forms.Button button88;
+        private System.Windows.Forms.Button button89;
+        private System.Windows.Forms.Panel panel30;
+        private System.Windows.Forms.Button button90;
+        private System.Windows.Forms.PictureBox pictureBox24;
+        private System.Windows.Forms.Button button91;
+        private System.Windows.Forms.Button button92;
+        private System.Windows.Forms.Button button93;
+        private System.Windows.Forms.Panel panel31;
+        private System.Windows.Forms.Button button94;
+        private System.Windows.Forms.PictureBox pictureBox25;
+        private System.Windows.Forms.Button button95;
+        private System.Windows.Forms.Button button96;
+        private System.Windows.Forms.Button button97;
+        private System.Windows.Forms.Panel panel32;
+        private System.Windows.Forms.Button button98;
+        private System.Windows.Forms.PictureBox pictureBox26;
+        private System.Windows.Forms.Button button99;
+        private System.Windows.Forms.Button button100;
+        private System.Windows.Forms.Button button101;
+        private System.Windows.Forms.Panel panel33;
+        private System.Windows.Forms.Button button102;
+        private System.Windows.Forms.PictureBox pictureBox27;
+        private System.Windows.Forms.Button button103;
+        private System.Windows.Forms.Button button104;
+        private System.Windows.Forms.Button button105;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Panel panel34;
+        private System.Windows.Forms.Panel panel35;
+        private System.Windows.Forms.Button button106;
+        private System.Windows.Forms.PictureBox pictureBox28;
+        private System.Windows.Forms.Button button107;
+        private System.Windows.Forms.Button button108;
+        private System.Windows.Forms.Button button109;
+        private System.Windows.Forms.Panel panel36;
+        private System.Windows.Forms.Button button110;
+        private System.Windows.Forms.PictureBox pictureBox29;
+        private System.Windows.Forms.Button button111;
+        private System.Windows.Forms.Button button112;
+        private System.Windows.Forms.Button button113;
+        private System.Windows.Forms.Panel panel37;
+        private System.Windows.Forms.Button button114;
+        private System.Windows.Forms.PictureBox pictureBox30;
+        private System.Windows.Forms.Button button115;
+        private System.Windows.Forms.Button button116;
+        private System.Windows.Forms.Button button117;
+        private System.Windows.Forms.Panel panel38;
+        private System.Windows.Forms.Button button118;
+        private System.Windows.Forms.PictureBox pictureBox31;
+        private System.Windows.Forms.Button button119;
+        private System.Windows.Forms.Button button120;
+        private System.Windows.Forms.Button button121;
+        private System.Windows.Forms.Label label9;
     }
 }

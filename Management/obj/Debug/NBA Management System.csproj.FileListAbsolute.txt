@@ -11,3 +11,17 @@ C:\Users\VoRst\Desktop\1POHAS1\Management\obj\Debug\NBA Management System.csproj
 C:\Users\VoRst\Desktop\1POHAS1\Management\obj\Debug\Management.exe
 C:\Users\VoRst\Desktop\1POHAS1\Management\obj\Debug\Management.pdb
 C:\Users\VoRst\Desktop\1POHAS1\Management\obj\Debug\Management.Teams_Main.resources
+C:\Users\Student\Desktop\1POHAS1\Management\obj\Debug\NBA Management System.csproj.AssemblyReference.cache
+C:\Users\Student\Desktop\1POHAS1\Management\obj\Debug\NBA Management System.csproj.SuggestedBindingRedirects.cache
+C:\Users\Student\Desktop\1POHAS1\Management\obj\Debug\Management.Form1.resources
+C:\Users\Student\Desktop\1POHAS1\Management\obj\Debug\Management.Properties.Resources.resources
+C:\Users\Student\Desktop\1POHAS1\Management\obj\Debug\Management.Teams_Main.resources
+C:\Users\Student\Desktop\1POHAS1\Management\obj\Debug\Management.TeamsMain1.resources
+C:\Users\Student\Desktop\1POHAS1\Management\obj\Debug\Management.VisitorMenuForm.resources
+C:\Users\Student\Desktop\1POHAS1\Management\obj\Debug\NBA Management System.csproj.GenerateResource.cache
+C:\Users\Student\Desktop\1POHAS1\Management\obj\Debug\NBA Management System.csproj.CoreCompileInputs.cache
+C:\Users\Student\Desktop\1POHAS1\Management\obj\Debug\Management.exe
+C:\Users\Student\Desktop\1POHAS1\Management\obj\Debug\Management.pdb
+C:\Users\Student\Desktop\1POHAS1\Management\bin\Debug\Management.exe.config
+C:\Users\Student\Desktop\1POHAS1\Management\bin\Debug\Management.exe
+C:\Users\Student\Desktop\1POHAS1\Management\bin\Debug\Management.pdb
