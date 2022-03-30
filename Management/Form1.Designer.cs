@@ -187,10 +187,10 @@
             // 
             this.label3.BackColor = System.Drawing.SystemColors.Highlight;
             this.label3.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.label3.Location = new System.Drawing.Point(12, 428);
+            this.label3.Location = new System.Drawing.Point(0, 433);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(776, 23);
-            this.label3.TabIndex = 9;
+            this.label3.Size = new System.Drawing.Size(799, 17);
+            this.label3.TabIndex = 16;
             this.label3.Text = "The current season is 2016-2017, and the NBA aready has a history in 71 years.";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 

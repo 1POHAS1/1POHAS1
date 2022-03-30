@@ -25,3 +25,5 @@ C:\Users\Student\Desktop\1POHAS1\Management\obj\Debug\Management.pdb
 C:\Users\Student\Desktop\1POHAS1\Management\bin\Debug\Management.exe.config
 C:\Users\Student\Desktop\1POHAS1\Management\bin\Debug\Management.exe
 C:\Users\Student\Desktop\1POHAS1\Management\bin\Debug\Management.pdb
+C:\Users\VoRst\Desktop\1POHAS1\Management\obj\Debug\Management.TeamDetail.resources
+C:\Users\VoRst\Desktop\1POHAS1\Management\obj\Debug\Management.TeamsMain1.resources

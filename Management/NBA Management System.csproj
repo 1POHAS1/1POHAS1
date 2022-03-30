@@ -56,6 +56,12 @@
     <Compile Include="Player.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TeamDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TeamDetail.Designer.cs">
+      <DependentUpon>TeamDetail.cs</DependentUpon>
+    </Compile>
     <Compile Include="Teams Main.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -86,6 +92,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="TeamDetail.resx">
+      <DependentUpon>TeamDetail.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Teams Main.resx">
       <DependentUpon>Teams Main.cs</DependentUpon>
     </EmbeddedResource>
@@ -107,6 +116,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
