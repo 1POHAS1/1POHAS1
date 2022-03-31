@@ -49,6 +49,18 @@ namespace Management
 
             player.Set(1, "Mo Williams", 1, "23.05.2000", 1.85, 89.8, "19.12.1982", "US", "M");
             players[0] = player;
+
+            player.Set(2, "Alonzo Edward Gee", 4, "12.03.2005", 1.98, 99, "29.05.1987", "US", "M");
+            players[1] = player;
+
+            player.Set(3, "Johnny O'Bryant", 3, "18.03.2014", 2.05, 116.5, "01.06.1993", "US", "M");
+            players[2] = player;
+
+            player.Set(4, "Danilo Gallinari", 4, "21.07.2003", 2.08, 102, "08.08.1988", "US", "M");
+            players[3] = player;
+
+            player.Set(5, "Darrell Arthur", 5, "22.07.2003", 2.06, 107, "25.03.1988", "US", "M");
+            players[4] = player;
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -62,7 +74,8 @@ namespace Management
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            Form visitorForm = new VisitorMenuForm();
+            visitorForm.Show();
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -72,6 +85,12 @@ namespace Management
             pictureBox2.Load("../../Pictures/" + imgList[index + 0]);
             pictureBox3.Load("../../Pictures/" + imgList[index + 1]);
             pictureBox4.Load("../../Pictures/" + imgList[index + 2]);
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form AdminForm = new TeamsMain1();
+            AdminForm.Show();
         }
     }
 }
