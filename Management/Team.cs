@@ -10,6 +10,7 @@ namespace Management
     {
         byte Teamid;
         string Name;
+        int DivisionId;
         string Abbr;
         string Logo;
 
@@ -21,6 +22,12 @@ namespace Management
         public void SetName(string Name)
         {
             this.Name = Name;
+        }
+
+        public void SetDivisionId(int DivisionId)
+        {
+            this.DivisionId = DivisionId;
+
         }
 
         public void SetAbbr(string Abbr)

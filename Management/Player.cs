@@ -8,9 +8,9 @@ namespace Management
 {
     internal class Player
     {
-        byte Playerld;
+        byte PlayerId;
         String Name;
-        byte positionald;
+        byte positionaId;
         String joinYear;
         double height;
         double weidth;
@@ -18,11 +18,11 @@ namespace Management
         String country;
         String gender;
 
-        public void Set(byte Playerld, String Name, byte positionald, String joinYear, double height, double weigth, String dateBirth, String country, String gender)
+        public void Set(byte PlayerId, String Name, byte positionaId, String joinYear, double height, double weigth, String dateBirth, String country, String gender)
         {
-            this.Playerld = Playerld;
+            this.PlayerId = PlayerId;
             this.Name = Name;
-            this.positionald = positionald;
+            this.positionaId = positionaId;
             this.joinYear = joinYear;
             this.height = height;
             this.weidth = weigth;
