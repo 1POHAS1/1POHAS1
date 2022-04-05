@@ -9,35 +9,19 @@ namespace Management
     internal class Team
     {
         byte Teamid;
-        string Name;
-        int DivisionId;
+        public string Name;
         string Abbr;
         string Logo;
 
-        public void Set(byte Teamid)
+        public void Set(byte Teamid, string Name, string Abbr, string Logo)
         {
             this.Teamid = Teamid;
-        }
-
-        public void SetName(string Name)
-        {
             this.Name = Name;
-        }
-
-        public void SetDivisionId(int DivisionId)
-        {
-            this.DivisionId = DivisionId;
-
-        }
-
-        public void SetAbbr(string Abbr)
-        {
             this.Abbr = Abbr;
-        }
-
-        public void SetLogo(string Logo)
-        {
             this.Logo = Logo;
         }
+
+        
+        
     }
 }

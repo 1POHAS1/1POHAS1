@@ -61,6 +61,9 @@ namespace Management
 
             player.Set(5, "Darrell Arthur", 5, "22.07.2003", 2.06, 107, "25.03.1988", "US", "M");
             players[4] = player;
+
+            Team team = new Team();
+
         }
 
         private void button3_Click(object sender, EventArgs e)

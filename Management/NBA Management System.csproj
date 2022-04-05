@@ -55,6 +55,7 @@
     </Compile>
     <Compile Include="Player.cs" />
     <Compile Include="PositionName.cs" />
+    <Compile Include="PositionOfPlayer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Team.cs" />

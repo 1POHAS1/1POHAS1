@@ -34,7 +34,6 @@
             this.button22 = new System.Windows.Forms.Button();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.button23 = new System.Windows.Forms.Button();
-            this.button24 = new System.Windows.Forms.Button();
             this.button25 = new System.Windows.Forms.Button();
             this.panel14 = new System.Windows.Forms.Panel();
             this.panel15 = new System.Windows.Forms.Panel();
@@ -105,25 +104,21 @@
             this.button26 = new System.Windows.Forms.Button();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.button27 = new System.Windows.Forms.Button();
-            this.button28 = new System.Windows.Forms.Button();
             this.button29 = new System.Windows.Forms.Button();
             this.panel8 = new System.Windows.Forms.Panel();
             this.button14 = new System.Windows.Forms.Button();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.button15 = new System.Windows.Forms.Button();
-            this.button16 = new System.Windows.Forms.Button();
             this.button17 = new System.Windows.Forms.Button();
             this.panel9 = new System.Windows.Forms.Panel();
             this.button18 = new System.Windows.Forms.Button();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.button19 = new System.Windows.Forms.Button();
-            this.button20 = new System.Windows.Forms.Button();
             this.button21 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.button6 = new System.Windows.Forms.Button();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.button7 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -232,6 +227,11 @@
             this.button120 = new System.Windows.Forms.Button();
             this.button121 = new System.Windows.Forms.Button();
             this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
             this.panel3.SuspendLayout();
             this.panel10.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
@@ -322,10 +322,10 @@
             // panel10
             // 
             this.panel10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel10.Controls.Add(this.label13);
             this.panel10.Controls.Add(this.button22);
             this.panel10.Controls.Add(this.pictureBox7);
             this.panel10.Controls.Add(this.button23);
-            this.panel10.Controls.Add(this.button24);
             this.panel10.Controls.Add(this.button25);
             this.panel10.Location = new System.Drawing.Point(3, 186);
             this.panel10.Name = "panel10";
@@ -366,21 +366,6 @@
             this.button23.TabIndex = 4;
             this.button23.Text = "Matchup";
             this.button23.UseVisualStyleBackColor = true;
-            // 
-            // button24
-            // 
-            this.button24.BackColor = System.Drawing.SystemColors.Control;
-            this.button24.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button24.FlatAppearance.BorderSize = 0;
-            this.button24.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
-            this.button24.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
-            this.button24.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button24.Location = new System.Drawing.Point(53, 3);
-            this.button24.Name = "button24";
-            this.button24.Size = new System.Drawing.Size(75, 22);
-            this.button24.TabIndex = 3;
-            this.button24.Text = "Team name";
-            this.button24.UseVisualStyleBackColor = false;
             // 
             // button25
             // 
@@ -1223,10 +1208,10 @@
             // panel11
             // 
             this.panel11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel11.Controls.Add(this.label14);
             this.panel11.Controls.Add(this.button26);
             this.panel11.Controls.Add(this.pictureBox8);
             this.panel11.Controls.Add(this.button27);
-            this.panel11.Controls.Add(this.button28);
             this.panel11.Controls.Add(this.button29);
             this.panel11.Location = new System.Drawing.Point(-1, 236);
             this.panel11.Name = "panel11";
@@ -1268,21 +1253,6 @@
             this.button27.Text = "Matchup";
             this.button27.UseVisualStyleBackColor = true;
             // 
-            // button28
-            // 
-            this.button28.BackColor = System.Drawing.SystemColors.Control;
-            this.button28.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button28.FlatAppearance.BorderSize = 0;
-            this.button28.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
-            this.button28.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
-            this.button28.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button28.Location = new System.Drawing.Point(53, 3);
-            this.button28.Name = "button28";
-            this.button28.Size = new System.Drawing.Size(75, 22);
-            this.button28.TabIndex = 3;
-            this.button28.Text = "Team name";
-            this.button28.UseVisualStyleBackColor = false;
-            // 
             // button29
             // 
             this.button29.BackColor = System.Drawing.SystemColors.Control;
@@ -1299,10 +1269,10 @@
             // panel8
             // 
             this.panel8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel8.Controls.Add(this.label11);
             this.panel8.Controls.Add(this.button14);
             this.panel8.Controls.Add(this.pictureBox4);
             this.panel8.Controls.Add(this.button15);
-            this.panel8.Controls.Add(this.button16);
             this.panel8.Controls.Add(this.button17);
             this.panel8.Location = new System.Drawing.Point(-1, 74);
             this.panel8.Name = "panel8";
@@ -1344,21 +1314,6 @@
             this.button15.Text = "Matchup";
             this.button15.UseVisualStyleBackColor = true;
             // 
-            // button16
-            // 
-            this.button16.BackColor = System.Drawing.SystemColors.Control;
-            this.button16.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button16.FlatAppearance.BorderSize = 0;
-            this.button16.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
-            this.button16.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
-            this.button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button16.Location = new System.Drawing.Point(53, 3);
-            this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(75, 22);
-            this.button16.TabIndex = 3;
-            this.button16.Text = "Team name";
-            this.button16.UseVisualStyleBackColor = false;
-            // 
             // button17
             // 
             this.button17.BackColor = System.Drawing.SystemColors.Control;
@@ -1375,10 +1330,10 @@
             // panel9
             // 
             this.panel9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel9.Controls.Add(this.label12);
             this.panel9.Controls.Add(this.button18);
             this.panel9.Controls.Add(this.pictureBox6);
             this.panel9.Controls.Add(this.button19);
-            this.panel9.Controls.Add(this.button20);
             this.panel9.Controls.Add(this.button21);
             this.panel9.Location = new System.Drawing.Point(-1, 128);
             this.panel9.Name = "panel9";
@@ -1420,21 +1375,6 @@
             this.button19.Text = "Matchup";
             this.button19.UseVisualStyleBackColor = true;
             // 
-            // button20
-            // 
-            this.button20.BackColor = System.Drawing.SystemColors.Control;
-            this.button20.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button20.FlatAppearance.BorderSize = 0;
-            this.button20.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
-            this.button20.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
-            this.button20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button20.Location = new System.Drawing.Point(53, 3);
-            this.button20.Name = "button20";
-            this.button20.Size = new System.Drawing.Size(75, 22);
-            this.button20.TabIndex = 3;
-            this.button20.Text = "Team name";
-            this.button20.UseVisualStyleBackColor = false;
-            // 
             // button21
             // 
             this.button21.BackColor = System.Drawing.SystemColors.Control;
@@ -1451,10 +1391,10 @@
             // panel1
             // 
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.label10);
             this.panel1.Controls.Add(this.button6);
             this.panel1.Controls.Add(this.pictureBox5);
             this.panel1.Controls.Add(this.button7);
-            this.panel1.Controls.Add(this.button9);
             this.panel1.Controls.Add(this.button8);
             this.panel1.Location = new System.Drawing.Point(-1, 20);
             this.panel1.Name = "panel1";
@@ -1496,21 +1436,6 @@
             this.button7.Text = "Matchup";
             this.button7.UseVisualStyleBackColor = true;
             // 
-            // button9
-            // 
-            this.button9.BackColor = System.Drawing.SystemColors.Control;
-            this.button9.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button9.FlatAppearance.BorderSize = 0;
-            this.button9.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
-            this.button9.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
-            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button9.Location = new System.Drawing.Point(53, 3);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(75, 22);
-            this.button9.TabIndex = 3;
-            this.button9.Text = "Team name";
-            this.button9.UseVisualStyleBackColor = false;
-            // 
             // button8
             // 
             this.button8.BackColor = System.Drawing.SystemColors.Control;
@@ -1535,6 +1460,7 @@
             this.label5.TabIndex = 0;
             this.label5.Text = "Atlantic";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // label3
             // 
@@ -2863,6 +2789,52 @@
             this.label9.Text = "Northwest";
             this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(54, 8);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(41, 13);
+            this.label10.TabIndex = 5;
+            this.label10.Text = "label10";
+            this.label10.Click += new System.EventHandler(this.label10_Click);
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(57, 4);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(41, 13);
+            this.label11.TabIndex = 5;
+            this.label11.Text = "label11";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(60, 6);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(41, 13);
+            this.label12.TabIndex = 5;
+            this.label12.Text = "label12";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(57, 6);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(41, 13);
+            this.label13.TabIndex = 5;
+            this.label13.Text = "label13";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(54, 6);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(41, 13);
+            this.label14.TabIndex = 5;
+            this.label14.Text = "label14";
+            // 
             // TeamsMain1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -2987,7 +2959,6 @@
         private System.Windows.Forms.Button button22;
         private System.Windows.Forms.PictureBox pictureBox7;
         private System.Windows.Forms.Button button23;
-        private System.Windows.Forms.Button button24;
         private System.Windows.Forms.Button button25;
         private System.Windows.Forms.Panel panel14;
         private System.Windows.Forms.Panel panel15;
@@ -3058,25 +3029,21 @@
         private System.Windows.Forms.Button button26;
         private System.Windows.Forms.PictureBox pictureBox8;
         private System.Windows.Forms.Button button27;
-        private System.Windows.Forms.Button button28;
         private System.Windows.Forms.Button button29;
         private System.Windows.Forms.Panel panel8;
         private System.Windows.Forms.Button button14;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.Button button15;
-        private System.Windows.Forms.Button button16;
         private System.Windows.Forms.Button button17;
         private System.Windows.Forms.Panel panel9;
         private System.Windows.Forms.Button button18;
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.Button button19;
-        private System.Windows.Forms.Button button20;
         private System.Windows.Forms.Button button21;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button9;
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label3;
@@ -3185,5 +3152,10 @@
         private System.Windows.Forms.Button button120;
         private System.Windows.Forms.Button button121;
         private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label label10;
     }
 }
