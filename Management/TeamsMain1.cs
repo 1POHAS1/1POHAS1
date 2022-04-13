@@ -39,15 +39,18 @@ namespace Management
             teams[4] = new Team();
             teams[4].Set(5, "Charlotte Hornets", "CHA", "5.jpg");
 
-            label10.Text = teams[0].Name;
+            //label10.Text = teams[0].Name;
             /*   label11.Text = teams[1].Name;
                label12.Text = teams[2].Name;
                label13.Text = teams[3].Name;
                label14.Text = teams[4].Name;*/
 
-            //for (int i=0; i<5; i++)
-           // panel1.Controls["panel2"].Controls["panel3"].Controls["tabControl1"].Controls["tabPage1"].Controls["label"+10].Text = teams[0].Name;
-           
+            for (int i = 0; i < 5; i++)
+            {
+
+                panel2.Controls["label" +10].Text = teams[0].Name; 
+             }
+            
         }
 
         private void label5_Click(object sender, EventArgs e)
@@ -61,6 +64,21 @@ namespace Management
         }
 
         private void label10_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label11_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button48_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tabPage1_Click(object sender, EventArgs e)
         {
 
         }
