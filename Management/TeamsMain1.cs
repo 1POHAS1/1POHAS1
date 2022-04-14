@@ -45,11 +45,14 @@ namespace Management
                label13.Text = teams[3].Name;
                label14.Text = teams[4].Name;*/
 
-            for (int i = 0; i < 5; i++)
+            for (int j = 1; j < 4; j++)
             {
-
-                panel2.Controls["label" +10].Text = teams[0].Name; 
-             }
+                for (int i = 0; i < 5; i++)
+                {
+                    tabPage1.Controls["panel"+j].Controls["label" + j + i].Text = teams[0 + i].Name;
+                    
+                }
+            }
             
         }
 
