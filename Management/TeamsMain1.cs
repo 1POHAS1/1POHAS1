@@ -17,7 +17,11 @@ namespace Management
             "1.jpg", "2.jpg"
         };
         int index = 0;
-        Team[] teams = new Team[11];
+        Team[] teams = new Team[15];
+
+        String[] imgLists = new String[]
+           {"1.jpeg", "2.jpg", "3.jpg", "1.jpeg", "2.jpg"};
+        int indexs = 0;
         public TeamsMain1()
         {
             InitializeComponent();
@@ -57,6 +61,19 @@ namespace Management
             teams[10] = new Team();
             teams[10].Set(11, "Boston Celtics", "BOS", "11.jpg");
 
+            teams[11] = new Team();
+            teams[11].Set(12, "Philadelphia 76ers", "PHI", "12.jpg");
+
+            teams[12] = new Team();
+            teams[12].Set(13, "New York Knicks", "NY", "13.jpg");
+
+            teams[13] = new Team();
+            teams[13].Set(14, "Brooklyn Nets", "BKN", "14.jpg");
+
+            teams[14] = new Team();
+            teams[14].Set(15, "Toronto Raptors", "TOR", "15.jpg");
+
+
             //label10.Text = teams[0].Name;
             /*   label11.Text = teams[1].Name;
                label12.Text = teams[2].Name;
@@ -71,12 +88,21 @@ namespace Management
                     {
                         tabPage1.Controls["panel" + 1].Controls["label" + 1 + i].Text = teams[0 + i].Name;
                         tabPage1.Controls["panel" + 2].Controls["label" + 2 + j].Text = teams[5 + j].Name;
-                        tabPage1.Controls["panel" + 3].Controls["label" + 3 + k].Text = teams[0 + k].Name;
+                        tabPage1.Controls["panel" + 3].Controls["label" + 3 + k].Text = teams[10 + k].Name;
 
                     }
                 }
-            } 
+            }
+
+           /* for (int j = 0; j < 3; j++)
+            {
+                for (int i = 4; i < 7; i++)
+                {
+                    tabPage1.Controls["panel" + 1].Controls["pictureBox" +i].BackgroundImage = ("../../Pictures/" + imgLists[0]);
+                }
+            }*/
         }
+
 
         private void label5_Click(object sender, EventArgs e)
         {
