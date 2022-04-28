@@ -17,7 +17,7 @@ namespace Management
             "1.jpg", "2.jpg"
         };
         int index = 0;
-        Team[] teams = new Team[15];
+        public static Team[] teams = new Team[15];
 
         String[] imgLists = new String[]
            {"1.jpeg", "2.jpg", "3.jpg", "1.jpeg", "2.jpg"};
@@ -116,12 +116,16 @@ namespace Management
 
         private void label10_Click(object sender, EventArgs e)
         {
-
+            TeamDetail TDform = new TeamDetail();
+            TDform.IdTeam = 1;
+            TDform.Show();
         }
 
         private void label11_Click(object sender, EventArgs e)
         {
-
+            TeamDetail TDform = new TeamDetail();
+            TDform.IdTeam = 2;
+            TDform.Show();
         }
 
         private void button48_Click(object sender, EventArgs e)
@@ -137,6 +141,32 @@ namespace Management
         private void TeamsMain1_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void label12_Click(object sender, EventArgs e)
+        {
+            TeamDetail TDform = new TeamDetail();
+            TDform.IdTeam = 3;
+            TDform.Show();
+        }
+
+        private void label13_Click(object sender, EventArgs e)
+        {
+            TeamDetail TDform = new TeamDetail();
+            TDform.IdTeam = 4;
+            TDform.Show();
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label14_Click(object sender, EventArgs e)
+        {
+            TeamDetail TDform = new TeamDetail();
+            TDform.IdTeam = 5;
+            TDform.Show();
         }
     }
 }

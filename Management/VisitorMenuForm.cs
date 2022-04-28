@@ -31,6 +31,8 @@ namespace Management
         {
             Form1 form1 = new Form1();
             form1.Show();
+            VisitorMenuForm VisitorForm = new VisitorMenuForm();
+            VisitorForm.Close();
         }
 
         private void button1_Click(object sender, EventArgs e)

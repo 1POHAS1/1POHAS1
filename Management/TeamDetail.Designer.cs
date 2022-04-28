@@ -226,6 +226,7 @@
             this.label4.Size = new System.Drawing.Size(276, 15);
             this.label4.TabIndex = 17;
             this.label4.Text = "Team Name  |  Division Name of Conference Name";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // TeamDetail
             // 
@@ -238,6 +239,7 @@
             this.Controls.Add(this.panel1);
             this.Name = "TeamDetail";
             this.Text = "TeamDetail";
+            this.Load += new System.EventHandler(this.TeamDetail_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

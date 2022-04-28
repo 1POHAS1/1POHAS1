@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Management
 {
-    internal class Team
+    public class Team
     {
-        byte Teamid;
+        public byte Teamid;
         public string Name;
         string Abbr;
         string Logo;
