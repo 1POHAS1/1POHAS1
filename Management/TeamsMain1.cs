@@ -168,5 +168,82 @@ namespace Management
             TDform.IdTeam = 5;
             TDform.Show();
         }
+
+        private void label20_Click(object sender, EventArgs e)
+        {
+            TeamDetail TDform = new TeamDetail();
+            TDform.IdTeam = 6;
+            TDform.Show();
+        }
+
+
+        private void label22_Click(object sender, EventArgs e)
+        {
+            TeamDetail TDform = new TeamDetail();
+            TDform.IdTeam = 8;
+            TDform.Show();
+        }
+
+        private void label23_Click(object sender, EventArgs e)
+        {
+            TeamDetail TDform = new TeamDetail();
+            TDform.IdTeam = 9;
+            TDform.Show();
+        }
+
+        private void label24_Click(object sender, EventArgs e)
+        {
+            TeamDetail TDform = new TeamDetail();
+            TDform.IdTeam = 10;
+            TDform.Show();
+        }
+
+        private void label21_Click(object sender, EventArgs e)
+        {
+            TeamDetail TDform = new TeamDetail();
+            TDform.IdTeam = 7;
+            TDform.Show();
+        }
+
+        private void label31_Click(object sender, EventArgs e)
+        {
+            TeamDetail TDform = new TeamDetail();
+            TDform.IdTeam = 12;
+            TDform.Show();
+        }
+
+        private void label30_Click(object sender, EventArgs e)
+        {
+            TeamDetail TDform = new TeamDetail();
+            TDform.IdTeam = 11;
+            TDform.Show();
+        }
+
+        private void label32_Click(object sender, EventArgs e)
+        {
+            TeamDetail TDform = new TeamDetail();
+            TDform.IdTeam = 13;
+            TDform.Show();
+        }
+
+        private void label33_Click(object sender, EventArgs e)
+        {
+            TeamDetail TDform = new TeamDetail();
+            TDform.IdTeam = 14;
+            TDform.Show();
+        }
+
+        private void label34_Click(object sender, EventArgs e)
+        {
+            TeamDetail TDform = new TeamDetail();
+            TDform.IdTeam = 15;
+            TDform.Show();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+           VisitorMenuForm visitorMenuForm = new VisitorMenuForm();
+            visitorMenuForm.Show();
+        }
     }
 }
