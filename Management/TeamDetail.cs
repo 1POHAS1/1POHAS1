@@ -12,9 +12,9 @@ namespace Management
 {
     public partial class TeamDetail : Form
     {
-       public int IdTeam = 0;
+        public int IdTeam = 0;
         Team team = new Team();
-        
+
         public TeamDetail()
         {
             InitializeComponent();
@@ -39,6 +39,14 @@ namespace Management
                     this.team = TeamsMain1.teams[i];
             }
             label4.Text = "TeamName | " + team.Name;
+
+            for (int i = 0; i < Form1.players.Length; i++)
+            { if (Form1.players[i].Teamid == this.IdTeam)
+                
+                    dataGridView1.Rows.Add(Form1.players[i].PlayerId, Form1.players[i].Name, Form1.players[i].positionalId, Form1.players[i].dateBirth);
+                
+                
+            }
         }
 
         private void label4_Click(object sender, EventArgs e)

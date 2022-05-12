@@ -6,29 +6,31 @@ using System.Threading.Tasks;
 
 namespace Management
 {
-    internal class Player
+    public class Player
     {
-        byte PlayerId;
-        String Name;
-        byte positionaId;
+        public byte PlayerId;
+        public String Name;
+        public byte positionalId;
         String joinYear;
         double height;
         double weidth;
-        String dateBirth;
+        public String dateBirth;
         String country;
         String gender;
+        public byte Teamid;
 
-        public void Set(byte PlayerId, String Name, byte positionaId, String joinYear, double height, double weigth, String dateBirth, String country, String gender)
+        public void Set(byte PlayerId, String Name, byte positionalId, String joinYear, double height, double weigth, String dateBirth, String country, String gender, byte Teamid)
         {
             this.PlayerId = PlayerId;
             this.Name = Name;
-            this.positionaId = positionaId;
+            this.positionalId = positionalId;
             this.joinYear = joinYear;
             this.height = height;
             this.weidth = weigth;
             this.dateBirth = dateBirth;
             this.country = country;
             this.gender = gender;
+            this.Teamid = Teamid;
         }
 
     }

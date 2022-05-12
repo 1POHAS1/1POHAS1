@@ -18,7 +18,7 @@ namespace Management
 
         Country[] countries = new Country[5];
 
-        Player[] players = new Player[5];
+       public static Player[] players = new Player[5];
         public Form1()
         {
             InitializeComponent();
@@ -47,20 +47,22 @@ namespace Management
             
                 Player player = new Player();
 
-            player.Set(1, "Mo Williams", 1, "23.05.2000", 1.85, 89.8, "19.12.1982", "US", "M");
-            players[0] = player;
 
-            player.Set(2, "Alonzo Edward Gee", 4, "12.03.2005", 1.98, 99, "29.05.1987", "US", "M");
-            players[1] = player;
+            players[0]=new Player();
+            players[0].Set(1, "Mo Williams", 1, "23.05.2000", 1.85, 89.8, "19.12.1982", "US", "M", 1) ;
 
-            player.Set(3, "Johnny O'Bryant", 3, "18.03.2014", 2.05, 116.5, "01.06.1993", "US", "M");
-            players[2] = player;
+            players[1] = new Player();
+            players[1].Set(2, "Alonzo Edward Gee", 4, "12.03.2005", 1.98, 99, "29.05.1987", "US", "M", 1);
 
-            player.Set(4, "Danilo Gallinari", 4, "21.07.2003", 2.08, 102, "08.08.1988", "US", "M");
-            players[3] = player;
-
-            player.Set(5, "Darrell Arthur", 5, "22.07.2003", 2.06, 107, "25.03.1988", "US", "M");
-            players[4] = player;
+            players[2] = new Player();
+            players[2].Set(3, "Johnny O'Bryant", 3, "18.03.2014", 2.05, 116.5, "01.06.1993", "US", "M", 1);
+            
+            players[3]=new Player();
+            players[3].Set(4, "Danilo Gallinari", 4, "21.07.2003", 2.08, 102, "08.08.1988", "US", "M", 1);
+            
+            players[4]= new Player();
+            players[4].Set(5, "Darrell Arthur", 5, "22.07.2003", 2.06, 107, "25.03.1988", "US", "M", 1);
+            
 
             Team team = new Team();
 

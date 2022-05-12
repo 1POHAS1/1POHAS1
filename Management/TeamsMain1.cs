@@ -124,7 +124,7 @@ namespace Management
         private void label11_Click(object sender, EventArgs e)
         {
             TeamDetail TDform = new TeamDetail();
-            TDform.IdTeam = 2;
+            //TDform.IdTeam = 2;
             TDform.Show();
         }
 
