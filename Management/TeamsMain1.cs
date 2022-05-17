@@ -82,16 +82,14 @@ namespace Management
 
             for (int i = 0; i < 5; i++)
             {
-                for (int j = 0; j < 5; j++)
-                {
-                    for (int k = 0; k < 5; k++)
-                    {
+               
+                    
                         tabPage1.Controls["panel" + 1].Controls["label" + 1 + i].Text = teams[0 + i].Name;
-                        tabPage1.Controls["panel" + 2].Controls["label" + 2 + j].Text = teams[5 + j].Name;
-                        tabPage1.Controls["panel" + 3].Controls["label" + 3 + k].Text = teams[10 + k].Name;
+                        tabPage1.Controls["panel" + 2].Controls["label" + 2 + i].Text = teams[5 + i].Name;
+                        tabPage1.Controls["panel" + 3].Controls["label" + 3 + i].Text = teams[10 + i].Name;
 
-                    }
-                }
+                    
+                
             }
 
            /* for (int j = 0; j < 3; j++)

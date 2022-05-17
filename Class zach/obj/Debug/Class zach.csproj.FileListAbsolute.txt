@@ -1,0 +1,12 @@
+C:\Users\Student\Desktop\1POHAS1\Class zach\bin\Debug\Class zach.exe.config
+C:\Users\Student\Desktop\1POHAS1\Class zach\bin\Debug\Class zach.exe
+C:\Users\Student\Desktop\1POHAS1\Class zach\bin\Debug\Class zach.pdb
+C:\Users\Student\Desktop\1POHAS1\Class zach\obj\Debug\Class zach.csproj.AssemblyReference.cache
+C:\Users\Student\Desktop\1POHAS1\Class zach\obj\Debug\Class zach.csproj.SuggestedBindingRedirects.cache
+C:\Users\Student\Desktop\1POHAS1\Class zach\obj\Debug\Class_zach.Form1.resources
+C:\Users\Student\Desktop\1POHAS1\Class zach\obj\Debug\Class_zach.Group.resources
+C:\Users\Student\Desktop\1POHAS1\Class zach\obj\Debug\Class_zach.Properties.Resources.resources
+C:\Users\Student\Desktop\1POHAS1\Class zach\obj\Debug\Class zach.csproj.GenerateResource.cache
+C:\Users\Student\Desktop\1POHAS1\Class zach\obj\Debug\Class zach.csproj.CoreCompileInputs.cache
+C:\Users\Student\Desktop\1POHAS1\Class zach\obj\Debug\Class zach.exe
+C:\Users\Student\Desktop\1POHAS1\Class zach\obj\Debug\Class zach.pdb
